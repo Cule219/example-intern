@@ -1,0 +1,131 @@
+body {
+    background: #282828;
+    color: white;
+    width: 75%;
+    margin: auto;
+    padding: 10% 0;
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+hr {
+    color: #D02350;
+    background-color: #D02035;
+    width: 30%;
+    height: 1vh;
+    margin-left: 0;
+    border: none;
+}
+.paragraph, .inputs input, .inputs select, button, .error-message {
+    font-family: 'Merriweather', serif;
+}
+.paragraph {
+    font-size: 20px;
+    margin: 40px 0 20px;
+}
+.error-message {
+    display: flex;
+    font-size: 12px;
+    color: #D02035;
+    width: 48.5%;
+    height: 20px;
+    justify-content: right;
+}
+.error-message p {
+    display: none;
+    margin: 0;
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+input, select {
+    font-size: 16px;
+    font-style: italic;
+    width: 48.5%;
+    border-radius: 0;
+    text-indent: 10px;
+    padding: 0.6em 0;
+    color: #797979;
+}
+select {
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image:
+        linear-gradient(45deg, transparent 50%, black 50%),
+        linear-gradient(135deg, black 50%, transparent 50%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    text-indent: 5px;
+}
+button {
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+    background-color: #D02035;
+    width: 100%;
+    border: 1px solid #D02035;
+    border-radius: 3px/7px;
+    font-weight: 700;
+    padding: 1vh 0;
+    margin: 3vh 0;
+}
+.style-desc {
+    background-color: #4F4F4F;
+    display: flex;
+    padding: 3vh 4vw;
+    font-weight: 700;
+}
+.elements {
+    width: 70%;
+}
+.elements p {
+    margin-bottom: 10px;
+}
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    margin: 0;
+    width: 28px;
+    height: 28px;
+}
+.red {
+    background: #D02035;
+}
+.black {
+    background: #282828;
+}
+.grey {
+    background: #797979;
+}
+.color {
+    display: flex;
+    width: 45%;
+    margin-bottom: 10px;
+}
+.color p {
+    margin-top: -4px;
+    margin-right: 10px;
+}
+.thank-you-message {
+    font-size: 16px;
+}
